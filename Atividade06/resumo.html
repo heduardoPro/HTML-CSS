@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styleR.css">
+    <title>FlexBox</title>
+</head>
+<body>
+        <header>
+            <h1 class="T1">FlexBox</h1>
+                <nav>
+                    <a href="index.html">Notícias 24HS</a>
+                    <a href="https://color.adobe.com/pt/explore">Paleta de cores</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://portal.ifrn.edu.br/">Portal IFRN</a>
+                </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1 class="flex"> O que é <span>Flexbox?</span> </h1>
+                <p>o Flexbox está se tornando apto para uso geral. Flexbox provê ferramentas para criação rápida de layouts complexos e flexíveis, e características que se mostraram historicamente difíceis com CSS. Este artigo explica todos os seus fundamentos.</p>
+                <p>Por um longo tempo, as únicas ferramentas compatíveis entre browsers disponíveis para criação de layouts CSS eram coisas como floats e posicionamento. Estas são boas e funcionam, mas em alguns casos também são limitadas e frustrantes.</p>
+            </section>
+
+            <section>
+                <h1>EXEMPLOS</h1>
+                <img src="imagens/flexbox-example1.png"  alt="Exemplo de FlexBox">
+            </section>
+            
+            <section>
+                <h1>Colunas ou linhas?</h1>
+                <p>Flexbox possui uma propriedade chamada <span>flex-direction</span> que especifica a direção do eixo principal (em qual direção os filhos da flexbox estarão arranjados) — que por padrão seu valor é row (linha), que faz com que eles fiquem arranjados numa linha na direção que o seu navegador está configurado de acordo com a direção de leitura do seu idioma (da esquerda para a direita, no caso do inglês ou português).</p>
+            </section>
+
+            <section>
+                <h1>Flex-Container</h1>
+                <p>é o elemento que envolve sua estrutura. Você define que um elemento é um Flex Container com a propriedade display e valores flex ou inline-flex.</p>
+                
+            </section>
+
+            <section>
+                <h1>display</h1>
+                <p>Esta propriedade define um flex container; inline ou block dependendo dos valores passados. Coloca todos os elementos-filhos diretos num contexto Flex.</p>
+                <p>Note que a propriedade de CSS columns não tem efeito em um flex container</p>
+                <span>.container {
+                    display: flex; /* or inline-flex */
+                  }</span>
+            </section>
+
+            <section>
+                <h1>flex-direction</h1>
+                <p>Estabelece o eixo principal, definindo assim a direção em que os flex items são alinhados no flex container. O Flexbox é (com exceção de um wrapping opcional) um conceito de leiaute de uma só direção. Pense nos flex items inicialmente posicionaids ou em linhas horizontais ou em colunas verticais.</p>
+
+                <span> .flex-container {
+                    flex-direction: row | row-reverse | column | column-reverse;
+                  }</span>
+
+        </main>
+
+        <footer>
+            <h3>Todos os direitos autorais</h3>
+        </footer>
+</body>
+</html>

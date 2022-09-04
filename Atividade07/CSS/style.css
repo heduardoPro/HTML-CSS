@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    background-color:#94618E;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo {
+    color: white;
+    font-size: 34px
+}
+.flex-menu {
+    color: #49274A;
+    display: flex;
+    margin-left: 15%;
+    padding: 10px;
+}
+a:hover {
+    opacity: 0.55;
+}
+.flex-container {
+    color:#49274A;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 40px 0px 40px;
+}
+
